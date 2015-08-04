@@ -1,20 +1,18 @@
 # HTML-EMAIL TEMPLATES
----
+___
 This repository will host a small collections of email templates as I try to learn more about HTML-based email development
 
 
 ## CHALLENGES WITH HTML EMAIL
----
+___
 HTML based Email are difficult to properly create as coding standards simply do not exist for it.
 Different email clients can support whatever they desire and drop support for anything else they don't need.
 
 
 ###TABLES ARE BACK!
-These lack of standards consequently means that modern HTML techniques such as <div>, <section>, <article>
-simply do not work as intended, or are not supported at all.
+These lack of standards consequently means that modern HTML techniques such as div, section, article simply do not work as intended, or are not supported at all. Thus we're back to the old 90's days of nesting table with a couple additional restrictions such as colspan and rowspan being unsupported. 
 
-Thus we're back to the old 90's days of nesting <table> with a couple additional restrictions such as colspan and rowspan being unsupported.
-Stacking <td> on top of each other to build respsonsive email is also not fully supported by every email client.
+Stacking td on top of each other to build respsonsive email is also not fully supported by every email client.
 
 
 ###CSS RESTRICTIONS
