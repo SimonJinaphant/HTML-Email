@@ -1,3 +1,8 @@
+/*
+	Note: Margin with a capital M due to Outlook lack of support for lowercase margin
+	Both margins and paddings are not guarenteed to be the same by default, so we need to reset
+*/
+
 body {
 	Margin: 0;
 	padding: 0;
@@ -134,6 +139,7 @@ a {
 	padding-top: 10px;
 }
 
+
 /* Left sidebar layout */
 .left-sidebar {
 	text-align: center;
@@ -157,9 +163,11 @@ a {
 }
 
 .left-sidebar .contents {
-font-size: 14px;
+	font-size: 14px;
 	text-align: center;
 }
+
 .left-sidebar a {
 	color: #85ab70;
 }
+
