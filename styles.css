@@ -1,3 +1,8 @@
+/*
+	Note: Margin with a capital M due to Outlook lack of support for lowercase margin
+	Both margins and paddings are not guarenteed to be the same by default, so we need to reset
+*/
+
 body {
 	Margin: 0;
 	padding: 0;
