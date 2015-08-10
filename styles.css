@@ -2,7 +2,7 @@
 	Note: Margin with a capital M due to Outlook lack of support for lowercase margin
 	Both margins and paddings are not guarenteed to be the same by default, so we need to reset
 */
-
+/*=================START OF CSS RESET===================*/
 body {
 	Margin: 0;
 	padding: 0;
@@ -23,6 +23,17 @@ td {
 img {
 	border: 0;
 }
+
+p {
+	Margin: 0;
+}
+
+a {
+	color: #ee6a56;
+	text-decoration: underline;
+}
+
+/*=================END OF CSS RESET===================*/
 
 .wrapper {
 	width: 100%;
@@ -51,25 +62,18 @@ img {
 	padding: 10px;
 }
 
-p {
-	Margin: 0;
-}
 
-a {
-	color: #ee6a56;
-	text-decoration: underline;
-}
 
 .h1 {
 	font-size: 21px;
 	font-weight: bold;
-	Margin-bottom: 18px;
+	Margin-bottom: 12px;
 }
 
 .h2 {
 	font-size: 18px;
 	font-weight: bold;
-	Margin-bottom: 12px;
+	Margin-bottom: 8px;
 }
  
 /* One column layout */
