@@ -76,6 +76,10 @@ a {
 	Margin-bottom: 8px;
 }
 
+.contents {
+	width: 100%;
+}
+
 .ncolumn img {
 	width: 100%;
 	height: auto;
@@ -83,13 +87,19 @@ a {
 .ncolumn .text {
 	padding-top: 10px;
 }
- 
-/* One column layout */
-.one-column .contents {
+.ncolumn .contents{
+	font-size: 14px;
 	text-align: left;
 }
+.ncolumn .column{
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+} 
 
-.one-column p {
+/* One column layout */
+
+.one p {
 	font-size: 14px;
 	Margin-bottom: 10px;
 }
@@ -101,24 +111,13 @@ a {
 }
 
 .two .column {
-	width: 100%;
 	max-width: 300px;
-	display: inline-block;
-	vertical-align: top;
 }
 
-.contents {
-	width: 100%;
-}
 
-.two .contents {
-	font-size: 14px;
-	text-align: left;
-}
 .two img {
 	max-width: 280px;
 }
-
 
 
 /*Three column layout*/
@@ -129,13 +128,9 @@ a {
 	padding-bottom: 10px;
 }
 .three .column {
-	width: 100%;
 	max-width: 200px;
-	display: inline-block;
-	vertical-align: top;
 }
 .three .contents {
-	font-size: 14px;
 	text-align: center;
 }
 .three img {
@@ -144,7 +139,7 @@ a {
 
 
 
-/* sidebar layout */
+/* Sidebar layout */
 .sidebar {
 	text-align: center;
 	font-size: 0;
