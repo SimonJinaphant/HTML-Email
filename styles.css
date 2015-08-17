@@ -102,6 +102,12 @@ a {
 		vertical-align: top;
 	} 
 
+
+#title-banner p{
+	text-align: center;
+	font-family: "Times New Romen";
+}
+
 /* One column layout */
 .one p {
 	font-size: 14px;
