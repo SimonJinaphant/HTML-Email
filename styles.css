@@ -118,7 +118,7 @@ a {
 	}
 
 	.ncolumn .text {
-		padding-top: 10px;
+		padding-top: 10px;`
 	}
 
 	.ncolumn .contents{
@@ -137,6 +137,7 @@ a {
 	text-align: center;
 	font-family: "Times New Romen";
 }
+
 
 /* One column layout */
 .one p {
