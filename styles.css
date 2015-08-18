@@ -57,6 +57,7 @@ a {
 	Margin: 0 auto;
 	width: 100%;
 	max-width: 600px;
+
 }
 
 .full-width-image img {
@@ -206,4 +207,14 @@ a {
 
 	.sidebar a {
 		color: #85ab70;
+	}
+
+#footer{
+	background-color: #222;
+}
+	#footer p{
+		font-size: 12px;
+		text-align: center;
+		Margin-top:10px;
+		color: #bbbbbb;
 	}
