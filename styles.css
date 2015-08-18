@@ -28,6 +28,7 @@ img {
 p {
 	Margin: 0;
 	font-size: 14px;
+	color: #555555;
 }
 
 a {
@@ -36,7 +37,7 @@ a {
 }
 
 .bottom-line {
-	border-bottom: 1px solid #222;
+	border-bottom: 1px solid #888;
 }
 
 /*=================END OF CSS RESET===================*/
@@ -79,7 +80,7 @@ a {
 	/*@editable*/font-size: 20px;
 	/*@editable*/font-weight: bold;
 
-	/*@editable*/color:#000000;
+	/*@editable*/color:#222222;
 	/*@editable*/text-align: left;
 	/*@editable*/line-height: 100%;
 	Margin-bottom: 12px;
@@ -96,7 +97,7 @@ a {
 	/*@editable*/font-size: 18px;
 	/*@editable*/font-weight: bold;
 
-	/*@editable*/color:#000000;
+	/*@editable*/color:#222222;
 	/*@editable*/text-align: center;
 	/*@editable*/line-height: 100%;
 	Margin-bottom: 8px;
@@ -139,7 +140,6 @@ a {
 
 /* One column layout */
 .one p {
-	/*font-size: 14px;*/
 	Margin-bottom: 10px;
 }
 
