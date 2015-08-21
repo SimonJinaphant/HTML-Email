@@ -36,11 +36,10 @@ a {
 	text-decoration: underline;
 }
 
+/*=================END OF CSS RESET===================*/
 .bottom-line {
 	border-bottom: 1px solid #888;
 }
-
-/*=================END OF CSS RESET===================*/
 
 .wrapper {
 	width: 100%;
@@ -57,7 +56,6 @@ a {
 	Margin: 0 auto;
 	width: 100%;
 	max-width: 600px;
-
 }
 
 .full-width-image img {
