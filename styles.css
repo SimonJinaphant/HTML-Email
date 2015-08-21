@@ -209,12 +209,23 @@ a {
 		color: #85ab70;
 	}
 
-#footer{
-	background-color: #222;
+
+#footer p{
+	font-size: 10px;
+	text-align: center;
+	Margin-top: 10px;
 }
-	#footer p{
-		font-size: 10px;
-		text-align: center;
-		Margin-top:10px;
-		color: #bbbbbb;
+
+.light-green{
+	background-color: #46732E;
+	border-top: 2px solid #88B272;
+	border-bottom: 2px solid #88B272;
+}
+
+	.light-green img{
+		border: 1px solid #D5E6CC;
+	}
+
+	.light-green .text, .light-green p{
+		color: #D5E6CC;
 	}
