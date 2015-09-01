@@ -22,7 +22,7 @@ td {
 }
 
 img {
-	border: 0;
+	border: 0px;
 }
 
 p {
@@ -114,6 +114,7 @@ a {
 	.ncolumn img {
 		width: 100%;
 		height: auto;
+		border: 1px solid #ddd;
 	}
 
 	.ncolumn .text {
