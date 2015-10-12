@@ -22,7 +22,5 @@ Luckily there are some email sending services which offers automatic conversion 
 Some email clients also does not support media queries, so building responsive emails can be tricky.
 
 
-###MICROSOFT'S PRODUCT IS AT IT AGAIN
-Additional Microsoft supports are not escapable, even within email design. 
-Most of the time, MS Outlook must be treated as a special case in the HTML file, 
-so conditional codes are guarenteed to be used just to make MS Outlook render things the same way as any other email clients.
+###SPECIAL CASES
+MS Outlook must be treated as a special case in the HTML file, so conditional codes are guarenteed to be used just to make MS Outlook render things the same way as any other email clients.
